@@ -1,0 +1,23 @@
+locale list 
+https://www.fincher.org/Utilities/CountryLanguageList.shtml
+
+
+associations => country
+areas => Embassy
+branches = ESC
+branch_units = N/A
+
+
+Admin_User = Made
+Embassy_User = Need
+ESC_User = Made
+
+
+
+case_types
+case_categories
+case_statuses
+guardian_types
+designations
+
+

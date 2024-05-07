@@ -1,0 +1,118 @@
+/* @media print {
+    *{ margin: 0px; padding: 0px;box-sizing: border-box; -moz-box-sizing: border-box}
+    @page {
+        size: A4;
+        margin: 0;
+    }
+    body{
+        width: 8.267in;
+        height: 11.693in;
+        margin: 0.167in 0.14in 0 0.14in;
+        font-family: Verdana;
+        text-transform: uppercase;
+        font-size: 10px;
+        font-weight: bold;
+        background: url(kcs_comm.png) no-repeat;
+        background-size: contain;
+      
+    }
+    .background-image-report{ position: relative; page-break-after: always;}
+
+    .copy-of-report{ width: 8.2in; height: 3.84in; margin-bottom: 0.08in; position: relative; _background: #cd000040}
+    .copy-of-report:last-child{ margin-bottom: 0}
+    .place-of-booking{ position: absolute; top: 0.63in; left: 5.97in; font-size: 7px; width: 1.153in; font-weight: bold; text-align: center}
+    .kcs-no{ position: absolute; top: 0.63in; left: 7.16in; font-size: 7px; width: 0.983in; font-weight: bold; text-align: center}
+    .type1{ position: absolute; top: 0.15in; left: 5.87in; font-size: 14px; width: 1.153in; font-weight: bold; text-align: center}
+    .type2{ position: absolute; top: 0.06in; left: 5.87in; font-size: 14px; width: 1.153in; font-weight: bold; text-align: center}
+    .type3{ position: absolute; top: -0.03in; left: 5.87in; font-size: 14px; width: 1.153in; font-weight: bold; text-align: center}
+     
+    .sender-name{ position: absolute; top: 1.01in; left: 1.24in; width: 1.827in}
+    .sender-address{ position: absolute; top: 1.35in; left: 1.24in; width: 1.827in}
+    .sender-mobile{ position: absolute; top: 1.75in; left: 1.24in; width: 1.827in}
+
+    .receiver-name{ position: absolute; top: 1.01in; left: 4.35in; width: 1.567in}
+    .receiver-address{ position: absolute; top: 1.35in; left: 4.35in; width: 1.567in}
+    .receiver-mobile{ position: absolute; top: 1.75in; left: 4.35in; width: 1.567in}
+
+    .booking-date{ position: absolute; top: 1.01in; left: 7.1in; width: 1.043in}
+    .delivery-location{ position: absolute; top: 1.35in; left: 7.1in; width: 1.043in}
+    .delivery-type{ position: absolute; top: 1.75in; left: 7.1in; width: 1.043in}
+    .booking-officer{ position: absolute; top: 3.2in; left: 6.47in; width: 1.5in}
+
+    .product-details{ position: absolute; top: 2.383in; left: 0.744in; width: 2.41in}
+    .product-quantity{ position: absolute; top: 2.383in; left: 3.24in; width: 0.387in; text-align: center}
+    .condition-amount{ position: absolute; top: 2.383in; left: 3.645in; width: 0.76in; text-align: center}
+    .condition-charge{ position: absolute; top: 2.383in; left: 4.435in; width: 0.573in; text-align: center}
+    .total-condition{ position: absolute; top: 2.383in; left: 5.04in; width: 0.783in; text-align: center}
+    .booking-charge{ position: absolute; top: 2.383in; left: 5.845in; width: 0.51in; text-align: center}
+    .service-charge{ position: absolute; top: 2.383in; left: 6.38in; width: 0.503in; text-align: center}
+    .vat{ position: absolute; top: 2.383in; left: 6.89in; width: 0.363in; text-align: center}
+    .paid{ position: absolute; top: 2.383in; left: 7.27in; width: 0.337in; text-align: center}
+    .due{ position: absolute; top: 2.383in; left: 7.62in; width: 0.357in; text-align: center}
+
+    .reprint0{ position: absolute; top: 3.40in; left: 2.49in; width: 5.0in; font-size: 14px; text-align: center; transform:  translateX(-50%) translateY(-50%) rotate(-90deg);}
+    .reprint1{ position: absolute; top: 3.04in; left: 2.49in; width: 5.0in; font-size: 14px; text-align: center; transform:  translateX(-50%) translateY(-50%) rotate(-90deg);}
+    .reprint2{ position: absolute; top: 2.93in; left: 2.49in; width: 5.0in; font-size: 14px; text-align: center; transform:  translateX(-50%) translateY(-50%) rotate(-90deg);}
+} */
+*{ margin: 0px; padding: 0px;box-sizing: border-box; -moz-box-sizing: border-box}
+@page {
+    size: A4;
+    margin: 0;
+}
+body{
+    width: 8.267in;
+    height: 11.535in;
+    margin: 0.167in 0.14in 0 0.14in;
+    font-family: Verdana;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+    background: url('kcs_commission.png') no-repeat;
+    background-size: contain;
+}
+.background-image-report{ position: relative; page-break-after: always;}
+
+.copy-of-report{ width: 8.2in; height: 3.84in; margin-bottom: 0.08in; position: relative; _background: #cd000040}
+.copy-of-report:last-child{ margin-bottom: 0}
+.parent-table{ position: absolute; width: 100%; top: 1in; left: .15in}
+.place-of-booking{ position: absolute; top: 0.38in; left: 5.77in; font-size: 7px; width: 1.153in; font-weight: bold; text-align: center}
+.place-of-booking1{ position: absolute; top: 0.1in; left: 5.77in; font-size: 7px; width: 1.153in; font-weight: bold; text-align: center}
+.place-of-booking2{ position: absolute; top: -0.2in; left: 5.77in; font-size: 7px; width: 1.153in; font-weight: bold; text-align: center}
+
+
+
+.kcs-no{ position: absolute; top: 0.7in; left: 6.9in; font-size: 7px; width: 0.983in; font-weight: bold; text-align: center}
+.kcs-no1{ position: absolute; top: 0.43in; left: 6.9in; font-size: 7px; width: 0.983in; font-weight: bold; text-align: center}
+.kcs-no2{ position: absolute; top: 0.16in; left: 6.9in; font-size: 7px; width: 0.983in; font-weight: bold; text-align: center}
+.type1{ position: absolute; top: 0.15in; left: 5.87in; font-size: 14px; width: 1.153in; font-weight: bold; text-align: center}
+.type2{ position: absolute; top: 0.06in; left: 5.87in; font-size: 14px; width: 1.153in; font-weight: bold; text-align: center}
+.type3{ position: absolute; top: -0.03in; left: 5.87in; font-size: 14px; width: 1.153in; font-weight: bold; text-align: center}
+.sender-name{ position: absolute; top: 1.01in; left: 1.24in; width: 1.827in}
+.sender-address{ position: absolute; top: 1.35in; left: 1.24in; width: 1.827in}
+.sender-mobile{ position: absolute; top: 1.75in; left: 1.24in; width: 1.827in}
+
+.receiver-name{ position: absolute; top: 1.01in; left: 4.35in; width: 1.567in}
+.receiver-address{ position: absolute; top: 1.35in; left: 4.35in; width: 1.567in}
+.receiver-mobile{ position: absolute; top: 1.75in; left: 4.35in; width: 1.567in}
+
+.booking-date{ position: absolute; top: 1.01in; left: 7.1in; width: 1.043in}
+.delivery-location{ position: absolute; top: 1.35in; left: 7.1in; width: 1.043in}
+.delivery-type{ position: absolute; top: 1.75in; left: 7.1in; width: 1.043in}
+.booking-officer{ position: absolute; top: 3.2in; left: 6.47in; width: 1.5in}
+.booking-officer1{ position: absolute; top: 3in; left: 6.7in; width: 1.5in}
+.booking-officer2{ position: absolute; top: 2.6in; left: 6.75in; width: 1.5in}
+
+.product-details{ position: absolute; top: 2.383in; left: 0.744in; width: 2.41in}
+.product-quantity{ position: absolute; top: 2.383in; left: 3.24in; width: 0.387in; text-align: center}
+.condition-amount{ position: absolute; top: 2.383in; left: 3.645in; width: 0.76in; text-align: center}
+.condition-charge{ position: absolute; top: 2.383in; left: 4.435in; width: 0.573in; text-align: center}
+.total-condition{ position: absolute; top: 2.383in; left: 5.04in; width: 0.783in; text-align: center}
+.booking-charge{ position: absolute; top: 2.383in; left: 5.845in; width: 0.51in; text-align: center}
+.service-charge{ position: absolute; top: 2.383in; left: 6.38in; width: 0.503in; text-align: center}
+.vat{ position: absolute; top: 2.383in; left: 6.89in; width: 0.363in; text-align: center}
+.paid{ position: absolute; top: 2.383in; left: 7.27in; width: 0.337in; text-align: center}
+.due{ position: absolute; top: 2.383in; left: 7.62in; width: 0.357in; text-align: center}
+
+.reprint0{ position: absolute; top: 1.50in; left: 3.2in; width: 5.0in; font-size: 14px; text-align: center; transform:  translateX(-50%) translateY(-50%) rotate(-90deg);}
+.reprint1{ position: absolute; top: 1.20in; left: 3.2in; width: 5.0in; font-size: 14px; text-align: center; transform:  translateX(-50%) translateY(-50%) rotate(-90deg);}
+.reprint2{ position: absolute; top: 0.80in; left: 3.2in; width: 5.0in; font-size: 14px; text-align: center; transform:  translateX(-50%) translateY(-50%) rotate(-90deg);}

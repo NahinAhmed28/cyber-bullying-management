@@ -1,0 +1,18 @@
+/*@font-face {*/
+/*    font-family: 'sansbengali';*/
+/*    src: url('NotoSansBengali/NotoSansBengali-Bold.ttf') format('ttf');*/
+/*}*/
+
+
+/*body{*/
+/*    font-family: sansbengali !important;*/
+/*}*/
+@font-face {
+    font-family: 'kalpurush';
+    src: url('fonts/kalpurush.woff') format('woff'),
+    url('fonts/kalpurush.ttf') format('ttf');
+}
+
+body{
+    font-family: Kalpurush !important;
+}

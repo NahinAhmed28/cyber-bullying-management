@@ -1,0 +1,338 @@
+/* @media print {
+    *{ margin: 0px; padding: 0px;box-sizing: border-box; -moz-box-sizing: border-box}
+    @page {
+    size: A4;
+    margin: 0;
+    }
+    body{
+        width: 8.267in;
+        height: 11.535in;
+        margin: 0.167in 0.14in 0 0.14in;
+        font-family: Verdana;
+        text-transform: uppercase;
+        font-size: 10px;
+        font-weight: bold;
+        background: url(kcs_document.jpg) no-repeat;
+        background-size: contain;
+    }
+    .background-image-report{ position: relative; page-break-after: always;}
+    
+    .copy-of-report{ width: 8.2in; height: 3.84in; margin-bottom: 0.08in; position: relative; _background: #cd000040}
+    .copy-of-report:last-child{ margin-bottom: 0}
+    .place-of-booking0{ position: absolute; font-size: 9px; top: 0.70in; left: 5.90in; width: 1.153in; font-weight: bold;
+    text-align: center}
+    .place-of-booking1{ position: absolute; top: 0.57in; left: 5.90in; width: 1.153in; font-weight: bold; text-align:
+    center}
+    .place-of-booking2{ position: absolute; top: 0.45in; left: 5.90in; width: 1.153in; font-weight: bold; text-align:
+    center}
+    .kcs-no0{ position: absolute; top: 0.68in; left: 6.99in; font-size: 10px; width: 0.963in; font-weight: bold; text-align:
+    center}
+    .kcs-no1{ position: absolute; top: 0.58in; left: 6.99in; font-size: 10px; width: 0.963in; font-weight: bold; text-align:
+    center}
+    .kcs-no2{ position: absolute; top: 0.45in; left: 6.99in; font-size: 10px; width: 0.963in; font-weight: bold; text-align:
+    center}
+    
+    .sender-name0{ position: absolute; top: 1.04in; left: 1.08in; width: 1.827in}
+    .sender-name1{ position: absolute; top: .95in; left: 1.08in; width: 1.827in}
+    .sender-name2{ position: absolute; top: 0.85in; left: 1.08in; width: 1.827in}
+    
+    .sender-address0{ position: absolute; top: 1.28in; left: 1.08in; width: 1.827in}
+    .sender-address1{ position: absolute; top: 1.14in; left: 1.08in; width: 1.827in}
+    .sender-address2{ position: absolute; top: 1.08in; left: 1.08in; width: 1.827in}
+    
+    .sender-mobile0{ position: absolute; top: 1.75in; left: 1.08in; width: 1.827in}
+    .sender-mobile1{ position: absolute; top: 1.65in; left: 1.08in; width: 1.827in}
+    .sender-mobile2{ position: absolute; top: 1.58in; left: 1.08in; width: 1.827in}
+    
+    .receiver-name0{position: absolute;top: 1.04in;left: 3.9in;width: 1.567in;}
+    .receiver-name1{position: absolute;top: .95in;left: 3.9in;width: 1.567in;}
+    .receiver-name2{position: absolute;top: 0.85in;left: 3.9in;width: 1.567in;}
+    
+    .receiver-address0{ position: absolute; top: 1.28in; left: 3.9in; width: 1.567in}
+    .receiver-address1{ position: absolute; top: 1.14in; left: 3.9in; width: 1.567in}
+    .receiver-address2{ position: absolute; top: 1.08in; left: 3.9in; width: 1.567in}
+    
+    .receiver-mobile0{ position: absolute; top: 1.75in; left: 3.9in; width: 1.567in}
+    .receiver-mobile1{ position: absolute; top: 1.65in; left: 3.9in; width: 1.567in}
+    .receiver-mobile2{ position: absolute; top: 1.58in; left: 3.9in; width: 1.567in}
+    
+    .booking-date0{ position: absolute; top: 1.04in; left: 7.1in; width: 1.043in}
+    .booking-date1{ position: absolute; top: 0.95in; left: 7.1in; width: 1.043in}
+    .booking-date2{ position: absolute; top: 0.77in; left: 7.1in; width: 1.043in}
+    
+    .delivery-location0{ position: absolute; top: 1.24in; left: 6.99in; width: 1.0in;font-size: 8px;}
+    .delivery-location1{ position: absolute; top: 1.15in; left: 6.99in; width: 1.0in;font-size: 8px;}
+    .delivery-location2{ position: absolute; top: 1.05in; left: 6.99in; width: 1.0in;font-size: 8px;}
+    
+    .type1{ position: absolute; top: 0.18in; left: 5.8in; font-size: 14px; width: 1.153in; font-weight: bold; text-align:
+    center}
+    .type2{ position: absolute; top: 0.05in; left: 5.8in; font-size: 14px; width: 1.153in; font-weight: bold; text-align:
+    center}
+    .type3{ position: absolute; top: 0in; left: 5.8in; font-size: 14px; width: 1.153in; font-weight: bold; text-align:
+    center}
+    
+    .delivery-type0{ position: absolute; top: 1.45in; left: 6.9in; width: 1.343in}
+    .delivery-type1{ position: absolute; top: 1.35in; left: 6.9in; width: 1.343in}
+    .delivery-type2{ position: absolute; top: 1.25in; left: 6.9in; width: 1.343in}
+    
+    .booking-officer0 {
+        position: absolute;
+        top: 3.49in;
+        left: 6.12in;
+        width: 1.5in;
+        font-size: 8px;
+    }
+    .booking-officer1 {
+        position: absolute;
+        top: 3.39in;
+        left: 6.12in;
+        width: 1.5in;
+        font-size: 8px;
+    }
+    .booking-officer2 {
+        position: absolute;
+        top: 3.30in;
+        left: 6.12in;
+        width: 1.5in;
+        font-size: 8px;
+    }
+    
+    .product-details0{ position: absolute; top: 2.383in; left: 0.744in; width: 2.41in; display: none}
+    .product-details1{ position: absolute; top: 2.383in; left: 0.744in; width: 2.41in; display: none}
+    .product-details2{ position: absolute; top: 2.383in; left: 0.744in; width: 2.41in; display: none}
+    
+    .product-doct0{ position: absolute; top: 1.63in; left: 7.1in; width: 0.387in; text-align: center}
+    .product-doct1{ position: absolute; top: 1.53in; left: 7.1in; width: 0.387in; text-align: center}
+    .product-doct2{ position: absolute; top: 1.43in; left: 7.1in; width: 0.387in; text-align: center}
+    
+    .product-quantity0{ position: absolute; top: 2.15in; left: 6in; width: 0.387in; text-align: center}
+    .product-quantity1{ position: absolute; top: 2.05in; left: 6in; width: 0.387in; text-align: center}
+    .product-quantity2{ position: absolute; top: 1.95in; left: 6in; width: 0.387in; text-align: center}
+    
+    .condition-amount{ position: absolute; top: 2.383in; left: 3.645in; width: 0.76in; text-align: center; display: none}
+    .condition-charge{ position: absolute; top: 2.383in; left: 4.435in; width: 0.573in; text-align: center; display: none}
+    .total-condition{ position: absolute; top: 2.383in; left: 5.04in; width: 0.783in; text-align: center; display: none}
+    
+    .booking-charge0{ position: absolute; top: 2.35in; left: 7.37in; width: 0.49in; text-align: right}
+    .booking-charge1{ position: absolute; top: 2.25in; left: 7.37in; width: 0.49in; text-align: right}
+    .booking-charge2{ position: absolute; top: 2.15in; left: 7.37in; width: 0.49in; text-align: right}
+    
+    .service-charge0{ position: absolute; top: 2.595in; left: 7.35in; width: 0.47in; text-align: right}
+    .service-charge1{ position: absolute; top: 2.5in; left: 7.39in; width: 0.47in; text-align: right}
+    .service-charge2{ position: absolute; top: 2.4in; left: 7.39in; width: 0.47in; text-align: right}
+    
+    .vat0{ position: absolute; top: 2.82in; left: 7.39in; width: 0.47in; text-align: right}
+    .vat1{ position: absolute; top: 2.72in; left: 7.39in; width: 0.47in; text-align: right}
+    .vat2{ position: absolute; top: 2.62in; left: 7.39in; width: 0.47in; text-align: right}
+    
+    .total0{ position: absolute; top: 3.04in; left: 7.39in; width: 0.47in; text-align: right}
+    .total1{ position: absolute; top: 2.94in; left: 7.39in; width: 0.47in; text-align: right}
+    .total2{ position: absolute; top: 2.84in; left: 7.39in; width: 0.47in; text-align: right}
+    
+    .paid{ position: absolute; top: 2.383in; left: 7.27in; width: 0.337in; text-align: center; display: none}
+    .due{ position: absolute; top: 2.383in; left: 7.62in; width: 0.357in; text-align: center; display: none}
+    
+    .in-word0 {
+        position: absolute;
+        top: 3.29in;
+        left: 6.22in;
+        width: 2in;
+        text-align: center;
+        font-size: 7px;
+    }
+    
+    .in-word1 {
+        position: absolute;
+        top: 3.20in;
+        left: 6.22in;
+        width: 2in;
+        text-align: center;
+        font-size: 7px;
+    }
+    
+    .in-word2 {
+        position: absolute;
+        top: 3.10in;
+        left: 6.22in;
+        width: 2in;
+        text-align: center;
+        font-size: 7px;
+    }
+    
+    .reprint0{ position: absolute; top: 1.95in; left: 2.49in; width: 5.0in; font-size: 14px; text-align: center; transform:
+    translateX(-50%) translateY(-50%) rotate(-90deg);}
+    .reprint1{ position: absolute; top: 1.95in; left: 2.49in; width: 5.0in; font-size: 14px; text-align: center; transform:
+    translateX(-50%) translateY(-50%) rotate(-90deg);}
+    .reprint2{ position: absolute; top: 1.20in; left: 2.49in; width: 5.0in; font-size: 14px; text-align: center; transform:
+    translateX(-50%) translateY(-50%) rotate(-90deg);}
+} */
+*{ margin: 0px; padding: 0px;box-sizing: border-box; -moz-box-sizing: border-box}
+@page {
+size: A4;
+margin: 0;
+}
+body{
+    width: 8.267in;
+    height: 11.535in;
+    margin: 0.167in 0.14in 0 0.14in;
+    font-family: Verdana;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+    background: url(kcs_document.jpg) no-repeat;
+    background-size: contain;
+}
+.background-image-report{ position: relative; page-break-after: always;}
+
+.copy-of-report{ width: 8.2in; height: 3.84in; margin-bottom: 0.08in; position: relative; _background: #cd000040}
+.copy-of-report:last-child{ margin-bottom: 0}
+.place-of-booking0{ position: absolute; font-size: 9px; top: 0.70in; left: 5.90in; width: 1.153in; font-weight: bold;
+text-align: center}
+.place-of-booking1{ position: absolute; top: 0.57in; left: 5.90in; width: 1.153in; font-weight: bold; text-align:
+center}
+.place-of-booking2{ position: absolute; top: 0.45in; left: 5.90in; width: 1.153in; font-weight: bold; text-align:
+center}
+.kcs-no0{ position: absolute; top: 0.68in; left: 6.99in; font-size: 10px; width: 0.963in; font-weight: bold; text-align:
+center}
+.kcs-no1{ position: absolute; top: 0.58in; left: 6.99in; font-size: 10px; width: 0.963in; font-weight: bold; text-align:
+center}
+.kcs-no2{ position: absolute; top: 0.45in; left: 6.99in; font-size: 10px; width: 0.963in; font-weight: bold; text-align:
+center}
+
+.sender-name0{ position: absolute; top: 1.04in; left: 1.08in; width: 1.827in}
+.sender-name1{ position: absolute; top: .95in; left: 1.08in; width: 1.827in}
+.sender-name2{ position: absolute; top: 0.85in; left: 1.08in; width: 1.827in}
+
+.sender-address0{ position: absolute; top: 1.28in; left: 1.08in; width: 1.827in}
+.sender-address1{ position: absolute; top: 1.14in; left: 1.08in; width: 1.827in}
+.sender-address2{ position: absolute; top: 1.08in; left: 1.08in; width: 1.827in}
+
+.sender-mobile0{ position: absolute; top: 1.75in; left: 1.08in; width: 1.827in}
+.sender-mobile1{ position: absolute; top: 1.65in; left: 1.08in; width: 1.827in}
+.sender-mobile2{ position: absolute; top: 1.58in; left: 1.08in; width: 1.827in}
+
+.receiver-name0{position: absolute;top: 1.04in;left: 3.9in;width: 1.567in;}
+.receiver-name1{position: absolute;top: .95in;left: 3.9in;width: 1.567in;}
+.receiver-name2{position: absolute;top: 0.85in;left: 3.9in;width: 1.567in;}
+
+.receiver-address0{ position: absolute; top: 1.28in; left: 3.9in; width: 1.567in}
+.receiver-address1{ position: absolute; top: 1.14in; left: 3.9in; width: 1.567in}
+.receiver-address2{ position: absolute; top: 1.08in; left: 3.9in; width: 1.567in}
+
+.receiver-mobile0{ position: absolute; top: 1.75in; left: 3.9in; width: 1.567in}
+.receiver-mobile1{ position: absolute; top: 1.65in; left: 3.9in; width: 1.567in}
+.receiver-mobile2{ position: absolute; top: 1.58in; left: 3.9in; width: 1.567in}
+
+.booking-date0{ position: absolute; top: 1.04in; left: 7.1in; width: 1.043in}
+.booking-date1{ position: absolute; top: 0.95in; left: 7.1in; width: 1.043in}
+.booking-date2{ position: absolute; top: 0.77in; left: 7.1in; width: 1.043in}
+
+.delivery-location0{ position: absolute; top: 1.24in; left: 6.99in; width: 1.0in;font-size: 8px;}
+.delivery-location1{ position: absolute; top: 1.15in; left: 6.99in; width: 1.0in;font-size: 8px;}
+.delivery-location2{ position: absolute; top: 1.05in; left: 6.99in; width: 1.0in;font-size: 8px;}
+
+.type1{ position: absolute; top: 0.18in; left: 5.8in; font-size: 14px; width: 1.153in; font-weight: bold; text-align:
+center}
+.type2{ position: absolute; top: 0.05in; left: 5.8in; font-size: 14px; width: 1.153in; font-weight: bold; text-align:
+center}
+.type3{ position: absolute; top: 0in; left: 5.8in; font-size: 14px; width: 1.153in; font-weight: bold; text-align:
+center}
+
+.delivery-type0{ position: absolute; top: 1.45in; left: 6.9in; width: 1.343in}
+.delivery-type1{ position: absolute; top: 1.35in; left: 6.9in; width: 1.343in}
+.delivery-type2{ position: absolute; top: 1.25in; left: 6.9in; width: 1.343in}
+
+.booking-officer0 {
+    position: absolute;
+    top: 3.49in;
+    left: 6.12in;
+    width: 1.5in;
+    font-size: 8px;
+}
+.booking-officer1 {
+    position: absolute;
+    top: 3.39in;
+    left: 6.12in;
+    width: 1.5in;
+    font-size: 8px;
+}
+.booking-officer2 {
+    position: absolute;
+    top: 3.30in;
+    left: 6.12in;
+    width: 1.5in;
+    font-size: 8px;
+}
+
+.product-details0{ position: absolute; top: 2.383in; left: 0.744in; width: 2.41in; display: none}
+.product-details1{ position: absolute; top: 2.383in; left: 0.744in; width: 2.41in; display: none}
+.product-details2{ position: absolute; top: 2.383in; left: 0.744in; width: 2.41in; display: none}
+
+.product-doct0{ position: absolute; top: 1.63in; left: 7.1in; width: 0.387in; text-align: center}
+.product-doct1{ position: absolute; top: 1.53in; left: 7.1in; width: 0.387in; text-align: center}
+.product-doct2{ position: absolute; top: 1.43in; left: 7.1in; width: 0.387in; text-align: center}
+
+.product-quantity0{ position: absolute; top: 2.15in; left: 6in; width: 0.387in; text-align: center}
+.product-quantity1{ position: absolute; top: 2.05in; left: 6in; width: 0.387in; text-align: center}
+.product-quantity2{ position: absolute; top: 1.95in; left: 6in; width: 0.387in; text-align: center}
+
+.condition-amount{ position: absolute; top: 2.383in; left: 3.645in; width: 0.76in; text-align: center; display: none}
+.condition-charge{ position: absolute; top: 2.383in; left: 4.435in; width: 0.573in; text-align: center; display: none}
+.total-condition{ position: absolute; top: 2.383in; left: 5.04in; width: 0.783in; text-align: center; display: none}
+
+.booking-charge0{ position: absolute; top: 2.35in; left: 7.37in; width: 0.49in; text-align: right}
+.booking-charge1{ position: absolute; top: 2.25in; left: 7.37in; width: 0.49in; text-align: right}
+.booking-charge2{ position: absolute; top: 2.15in; left: 7.37in; width: 0.49in; text-align: right}
+
+.service-charge0{ position: absolute; top: 2.595in; left: 7.35in; width: 0.47in; text-align: right}
+.service-charge1{ position: absolute; top: 2.5in; left: 7.39in; width: 0.47in; text-align: right}
+.service-charge2{ position: absolute; top: 2.4in; left: 7.39in; width: 0.47in; text-align: right}
+
+.vat0{ position: absolute; top: 2.82in; left: 7.39in; width: 0.47in; text-align: right}
+.vat1{ position: absolute; top: 2.72in; left: 7.39in; width: 0.47in; text-align: right}
+.vat2{ position: absolute; top: 2.62in; left: 7.39in; width: 0.47in; text-align: right}
+
+.total0{ position: absolute; top: 3.04in; left: 7.39in; width: 0.47in; text-align: right}
+.total1{ position: absolute; top: 2.94in; left: 7.39in; width: 0.47in; text-align: right}
+.total2{ position: absolute; top: 2.84in; left: 7.39in; width: 0.47in; text-align: right}
+
+.paid{ position: absolute; top: 2.383in; left: 7.27in; width: 0.337in; text-align: center; display: none}
+.due{ position: absolute; top: 2.383in; left: 7.62in; width: 0.357in; text-align: center; display: none}
+
+.in-word0 {
+    position: absolute;
+    top: 3.29in;
+    left: 6.22in;
+    width: 2in;
+    text-align: center;
+    font-size: 7px;
+}
+
+.in-word1 {
+    position: absolute;
+    top: 3.20in;
+    left: 6.22in;
+    width: 2in;
+    text-align: center;
+    font-size: 7px;
+}
+
+.in-word2 {
+    position: absolute;
+    top: 3.10in;
+    left: 6.22in;
+    width: 2in;
+    text-align: center;
+    font-size: 7px;
+}
+
+
+
+
+
+.reprint0{ position: absolute; top: 1.95in; left: 2.49in; width: 5.0in; font-size: 14px; text-align: center; transform:
+translateX(-50%) translateY(-50%) rotate(-90deg);}
+.reprint1{ position: absolute; top: 1.95in; left: 2.49in; width: 5.0in; font-size: 14px; text-align: center; transform:
+translateX(-50%) translateY(-50%) rotate(-90deg);}
+.reprint2{ position: absolute; top: 1.20in; left: 2.49in; width: 5.0in; font-size: 14px; text-align: center; transform:
+translateX(-50%) translateY(-50%) rotate(-90deg);}
